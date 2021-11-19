@@ -1,56 +1,241 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proyecto Final</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" >
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  
-
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <header class="cabecera">
-        <a href="index.html">
-            <img class="logo" src="./assets/icons/logo 6.jpg" alt="logotipo"> 
-        </a>
-        <nav class="navegacion">
-            <ul class="navlista">
-                <li><a class="menu-nav" href="excursiones.html">Excusiones</a></li> 
-                <li><a class="menu-nav" href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+      <a href="index.html">
+        <img class="logo" src="./assets/icons/logo 6.jpg" alt="logotipo" />
+      </a>
+      <nav class="navegacion">
+        <ul class="navlista">
+          <li><a class="menu-nav" href="excursiones.html">Excusiones</a></li>
+          <li><a class="menu-nav" href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <section>
-          <h2> contactanos</h2>
-          <p>fadsssssssssssssssss</p>
-          
-    
+        <section class="reservaciones">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner photos-carousel">
+                              <div class="carousel-item active">
+                                <img src="./assets/images/c-puntaperdiz 1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/c-puntaperdiz2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/c-puntaperdiz3.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card excursion-card">
+                            <h5 class="card-header title-card">Duracion: 5hs</h5>
+                            <div class="card-body">
+                              <h5 class="card-title subtittle-card ">PUNTA PERDICES</h5>
+                              <p class="card-text">Con la ilusión que despiertan esas conchillas blancas y diminutas en contraste con la trasparencia del agua que refleja el cielo, uno puede imaginar que pisó, de buenas a primeras, cualquier playa del Caribe. Como si los 65 km por ruta 3 que separan Las Grutas del Puerto San Antonio Este, fueran los que separasen el destino de cualquier postal caribeña.</p>
+                                <div class="boton-reserva">
+                                <a href="contacto.html" class="btn btn-primary">RESERVAR</a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div >
         </section>
-    
-      </main>
-      
-      <footer class="footer">
-        <div class="iconos" >
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-facebook"></i>
-        </div>
-        <h3 class="contacto-footer">Contacto</h3>
-        <p class="contacto-footerp">excursiones-l-g@gmail.com</p>
-        <p class="contacto-footerp">Cel: 2920-12353213</p>      
-      </footer>
+
+
+
+        <section class="reservaciones">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="card excursion-card">
+                            <h5 class="card-header title-card">Duracion: 3hs</h5>
+                            <div class="card-body">
+                              <h5 class="card-title subtittle-card ">SALINAS DEL GUALICHO</h5>
+                              <p class="card-text">Hoy podemos aprovechar el día, ir a la playa y en la tarde conocer las Salinas el Gualicho. Están apenas a 60kms al oeste de Las Grutas y el acceso es restringido, ya que únicamente se permite el ingreso de turistas que llegan en excursiones. Son 40kms de asfalto y solo 20 de buen ripio. La excursión parte a las 16hs, pensamos volver a medianoche. Vamos en 4x4 o en minibús con aire acondicionado.</p>
+                                <div class="boton-reserva">
+                                <a href="contacto.html" class="btn btn-primary">RESERVAR</a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div id="carouselExampleControls2" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner photos-carousel">
+                              <div class="carousel-item active">
+                                <img src="./assets/images/c-salinas1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/c-salinas2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/c-salinas3.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls2" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div >
+        </section>
+        <section class="reservaciones">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+
+                        <div id="carouselExampleControls3" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner photos-carousel">
+                              <div class="carousel-item active">
+                                <img src="./assets/images/c-coloradas1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/c-piedrascoloradas3.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/c-coloradas2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="card excursion-card">
+                            <h5 class="card-header title-card">Duracion: 5hs</h5>
+                            <div class="card-body">
+                              <h5 class="card-title subtittle-card ">PIEDRAS COLORADAS</h5>
+                              <p class="card-text">Situadas a menos de 5 km al sur de Las Grutas, consisten en un afloramiento granítico, de color rojizo que cuenta con un amplio sector de playa, ideal para quienes prefieren espacios libres con pocos bañistas. El nombre de la playa como se indica se debe a que allí afloran formaciones rocosas del período Precámbrico (500 millones de años), que poseen un color rojizo debido a la presencia de feldespato en su composición.
+
+                                Es un muy buen sitio para los amantes de la observación de aves.</p>
+                                <div class="boton-reserva">
+                                <a href="contacto.html" class="btn btn-primary">RESERVAR</a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div >
+        </section>
+        
+        <section class="reservaciones">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-12 col-md-6">
+                        <div class="card excursion-card">
+                            <h5 class="card-header title-card">Duracion: 5hs</h5>
+                            <div class="card-body">
+                              <h5 class="card-title subtittle-card ">FUERTE ARGENTINO</h5>
+                              <p class="card-text">Esta formación imponente llama la atención por su apariencia de fortaleza antigua, que se divisa desde muy lejos entre la bruma del Golfo San Matías. Haremos un almuerzo de asado y cordero patagónico que realizan la denominada búsqueda del tesoro y la enigmática historia de los templarios es narrada por un especialista que como escenario natural tiene por fondo la meseta del Fuerte Argentino.</p>
+                                <div class="boton-reserva">
+                                <a href="contacto.html" class="btn btn-primary">RESERVAR</a>
+                                </div>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div id="carouselExampleControls4" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner photos-carousel">
+                              <div class="carousel-item active">
+                                <img src="./assets/images/c-fuerteargentino1.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/c-fuerteargentino2.jpg" class="d-block w-100" alt="...">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/images/c-fuerteargentino3.jpg" class="d-block w-100" alt="...">
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </div >
+        </section>
+
+        <section class="formas-pago">
+            <h2 class="formas">Formas de pago</h2>
+            
+            <div class="iconos-pago">
+                <img src="./assets/images/mercado-pago.svg" class="pago1">
+                <img src="./assets/images/PayPal.svg" class="pago2">
+                <img src="./assets/images/wire-transfer.svg" class="pago1">
+            </div>
+        </section>
 
 
 
 
 
-</body>
+
+              
+
+
+            
+    </main>
+
+    <footer class="footer">
+      <div class="iconos">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+      </div>
+      <h3 class="contacto-footer">Contacto</h3>
+      <p class="contacto-footerp">excursiones-l-g@gmail.com</p>
+      <p class="contacto-footerp">Cel: 2920-12353213</p>
+    </footer>
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
