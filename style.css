@@ -251,6 +251,9 @@ body {
   .reverse {
     flex-direction: column-reverse;
   }
+  .mapa {
+    width: auto;
+  }
 }
   
 
