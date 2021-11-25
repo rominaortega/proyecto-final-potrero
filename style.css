@@ -12,8 +12,7 @@ body {
   font-size: 10px;
 }
 .cabecera {
-  background-color: rgb(37, 35, 39);
-  padding: 8px;
+  background-color: rgb(209 36 14);
   color: white;
   display: flex;
   justify-content: space-between;
@@ -25,10 +24,12 @@ body {
   font-size: 20px;
   gap: 10px;
   margin-bottom: 0;
+  margin-right: 20px;
 }
 .logo {
-  width: 80px;
+  width: 90px;
   height: 50px;
+  margin-left: 15px;
 }
 .menu-nav {
   color: white;
@@ -36,9 +37,9 @@ body {
 }
 .seccion1 {
   min-height: 70vh;
-  background-image: url('./assets/images/portadappal.jpeg');
+  background-image: url('./assets/images/portada1.jpg');
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
@@ -47,15 +48,16 @@ body {
 .tituloportada {
   font-size: 70px;
   font-weight: bolder;
-  background-color: rgb(247, 243, 243);
+  background-color: rgb(38 36 36 / 40%);
+  color: rgb(240, 232, 232);
+  padding: 20px;
 }
 .seccion2 {
   height: 20vh;
-  background-color: rgb(37, 35, 39);
-  color: rgb(15, 15, 15);
+  background-color: rgb(63, 50, 51);
+  color: rgb(#f5c6cf61);
   display: flex;
 }
-
 .titulo-sec {
   margin-bottom: 3rem;
   font-size: 40px;
@@ -73,9 +75,6 @@ body {
   margin-bottom: 0;
 }
 
-.tits2 {
-  margin: 20px;
-}
 .parrseccion2 {
   height: 100%;
   width: 65%;
@@ -95,7 +94,7 @@ body {
 
 .footer {
   background-color: rgb(37, 35, 39);
-  height: 30vh;
+  padding: 30px 10px;
 }
 
 .contacto-footer {
@@ -120,10 +119,6 @@ body {
   box-shadow: 0rem 0.3rem 11px 7px #00000042;
 }
 
-.footer {
-  padding: 15px;
-}
-
 .iconos {
   text-align: center;
 }
@@ -137,7 +132,6 @@ body {
   padding: 30px;
   font-size: 20px;
 }
-
 
 .reservaciones {
   padding: 30px;
@@ -179,7 +173,7 @@ body {
 }
 .iconos-pago {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   margin-bottom: 15px;
 }
 
@@ -190,7 +184,19 @@ body {
 .pago2 {
   height: 5vh;
 }
+
+.mapa {
+  width: 100%;
+}
+
+.animation-scale:hover {
+ transform: scale(1.05);
+}
+
 @media (max-width: 992px) {
+  .cabecera {
+    height: 40px;
+  }
   .logo {
     width: 60px;
     height: 25px;
@@ -205,16 +211,20 @@ body {
     width: 100%;
     font-size: 13px;
     padding: 5px;
+    margin: 1rem 0;
   }
   .seccion2 {
     flex-direction: column;
+    height: auto;
   }
   .tituloportada {
     font-size: 28px;
     text-align: center;
+    padding: 10px;
   }
   .titulo-quienes-somos {
     width: 100%;
+    padding: 20px 0;
   }
   .titulo-sec {
     font-size: 20px;
@@ -245,21 +255,13 @@ body {
   .margen {
     margin-bottom: 15px;
   }
+  .contacto {
+    padding: 0;
+  }
   .excursion-card {
     height: auto;
   }
   .reverse {
     flex-direction: column-reverse;
   }
-  .mapa {
-    width: auto;
-  }
 }
-  
-
-
-
-
-
-
-
